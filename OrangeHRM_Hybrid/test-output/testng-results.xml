@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="96531" started-at="2021-05-04T07:14:49Z" finished-at="2021-05-04T07:16:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="96531" started-at="2021-05-04T07:14:49Z" finished-at="2021-05-04T07:16:25Z">
+      <class name="orangehrm.tests.OrangeHRM_HybridTest">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:orangehrm.tests.OrangeHRM_HybridTest@6ea6d14e]" name="launchApp" is-config="true" duration-ms="6517" started-at="2021-05-04T12:44:49Z" finished-at="2021-05-04T12:44:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="orangeHRMTestSuite()[pri:0, instance:orangehrm.tests.OrangeHRM_HybridTest@6ea6d14e]" name="orangeHRMTestSuite" duration-ms="89407" started-at="2021-05-04T12:44:55Z" finished-at="2021-05-04T12:46:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orangeHRMTestSuite -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:orangehrm.tests.OrangeHRM_HybridTest@6ea6d14e]" name="closeApp" is-config="true" duration-ms="583" started-at="2021-05-04T12:46:25Z" finished-at="2021-05-04T12:46:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- orangehrm.tests.OrangeHRM_HybridTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
