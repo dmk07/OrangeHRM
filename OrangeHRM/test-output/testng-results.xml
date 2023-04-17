@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="OrangeHRM Test Suite" duration-ms="40922" started-at="2021-04-21T07:13:23Z" finished-at="2021-04-21T07:14:04Z">
+    <groups>
+    </groups>
+    <test name="Admin Login TestCase" duration-ms="14563" started-at="2021-04-21T07:13:23Z" finished-at="2021-04-21T07:13:38Z">
+      <class name="orangehrm.tests.AdminLoginTest">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:orangehrm.tests.AdminLoginTest@1c53fd30]" name="launchApp" is-config="true" duration-ms="6958" started-at="2021-04-21T12:43:23Z" finished-at="2021-04-21T12:43:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="checkAdminLogin()[pri:0, instance:orangehrm.tests.AdminLoginTest@1c53fd30]" name="checkAdminLogin" duration-ms="7029" started-at="2021-04-21T12:43:30Z" finished-at="2021-04-21T12:43:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAdminLogin -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:orangehrm.tests.AdminLoginTest@1c53fd30]" name="closeApp" is-config="true" duration-ms="554" started-at="2021-04-21T12:43:37Z" finished-at="2021-04-21T12:43:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- orangehrm.tests.AdminLoginTest -->
+    </test> <!-- Admin Login TestCase -->
+    <test name="New Employee Registration TestCase" duration-ms="26333" started-at="2021-04-21T07:13:38Z" finished-at="2021-04-21T07:14:04Z">
+      <class name="orangehrm.tests.EmployeeRegistrationTest">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:orangehrm.tests.EmployeeRegistrationTest@6ad5c04e]" name="launchApp" is-config="true" duration-ms="4923" started-at="2021-04-21T12:43:38Z" finished-at="2021-04-21T12:43:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="checkNewEmployeeReg()[pri:0, instance:orangehrm.tests.EmployeeRegistrationTest@6ad5c04e]" name="checkNewEmployeeReg" duration-ms="20798" started-at="2021-04-21T12:43:43Z" finished-at="2021-04-21T12:44:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkNewEmployeeReg -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:orangehrm.tests.EmployeeRegistrationTest@6ad5c04e]" name="closeApp" is-config="true" duration-ms="609" started-at="2021-04-21T12:44:03Z" finished-at="2021-04-21T12:44:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- orangehrm.tests.EmployeeRegistrationTest -->
+    </test> <!-- New Employee Registration TestCase -->
+  </suite> <!-- OrangeHRM Test Suite -->
+</testng-results>
