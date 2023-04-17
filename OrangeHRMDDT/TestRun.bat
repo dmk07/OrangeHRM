@@ -1,0 +1,1 @@
+java -cp c:\test\OrangeHRM\jars\*;c:\test\OrangeHRM\bin org.testng.TestNG c:\test\OrangeHRM\OrangeHRMTestSuite.xml

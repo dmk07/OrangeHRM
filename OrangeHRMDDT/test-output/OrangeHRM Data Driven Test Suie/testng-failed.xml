@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHRM Data Driven Test Suie]">
+  <test name="Admin Login TestCase with Valid Data">
+    <classes>
+      <class name="orangehrm.tests.AdminLoginTestwithValidData"/>
+    </classes>
+  </test> <!-- Admin Login TestCase with Valid Data -->
+  <test name="Admin Login TestCase with Invalid Data">
+    <classes>
+      <class name="orangehrm.tests.AdminLoginTestwithInvalidData"/>
+    </classes>
+  </test> <!-- Admin Login TestCase with Invalid Data -->
+</suite> <!-- Failed suite [OrangeHRM Data Driven Test Suie] -->
