@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Cucumber test Suite" duration-ms="56475" started-at="2021-05-07T07:22:49Z" finished-at="2021-05-07T07:23:46Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testrunners.AdminLoginTestRunner@1a407d53]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testrunners.EmployeeRegTestRunner@6be46e8f]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Admin Login TestCase" duration-ms="40158" started-at="2021-05-07T07:22:49Z" finished-at="2021-05-07T07:23:29Z">
+      <class name="testrunners.AdminLoginTestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testrunners.AdminLoginTestRunner@1a407d53]" name="setUpClass" is-config="true" duration-ms="512" started-at="2021-05-07T12:52:49Z" finished-at="2021-05-07T12:52:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testrunners.AdminLoginTestRunner@1a407d53]" name="feature" duration-ms="39116" started-at="2021-05-07T12:52:50Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-05-07T12:53:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin Login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testrunners.AdminLoginTestRunner@1a407d53]" name="tearDownClass" is-config="true" duration-ms="363" started-at="2021-05-07T12:53:29Z" finished-at="2021-05-07T12:53:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testrunners.AdminLoginTestRunner -->
+    </test> <!-- Admin Login TestCase -->
+    <test name="New Employee Registration TestCase" duration-ms="16290" started-at="2021-05-07T07:23:29Z" finished-at="2021-05-07T07:23:46Z">
+      <class name="testrunners.EmployeeRegTestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testrunners.EmployeeRegTestRunner@6be46e8f]" name="setUpClass" is-config="true" duration-ms="12" started-at="2021-05-07T12:53:30Z" finished-at="2021-05-07T12:53:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testrunners.EmployeeRegTestRunner@6be46e8f]" name="feature" duration-ms="16273" started-at="2021-05-07T12:53:30Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-05-07T12:53:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New Employee Registration]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testrunners.EmployeeRegTestRunner@6be46e8f]" name="tearDownClass" is-config="true" duration-ms="1" started-at="2021-05-07T12:53:46Z" finished-at="2021-05-07T12:53:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testrunners.EmployeeRegTestRunner -->
+    </test> <!-- New Employee Registration TestCase -->
+  </suite> <!-- Cucumber test Suite -->
+</testng-results>
